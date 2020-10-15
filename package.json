@@ -1,0 +1,38 @@
+{
+  "name": "projectMiniCollabsA",
+  "version": "1.0.0",
+  "description": "Creating Movie Review App \"NAMA KELOMPOKMU OPOHE\"\r This app is an application to manage your assets.\r This app has : RESTfull endpoint for movie review app using CRUD (Create, Read, Update, Delete) operation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.23.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "sequelize-paginate": "^1.1.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/glintsxbinar_batch7-miniproject/team-a/teama-backend.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/glintsxbinar_batch7-miniproject/team-a/teama-backend/issues"
+  },
+  "homepage": "https://gitlab.com/glintsxbinar_batch7-miniproject/team-a/teama-backend#readme"
+}
